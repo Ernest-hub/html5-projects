@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My name is Ernest Korgah.
+I am a Ruby on Rails developer.
 
-Things you may want to cover:
+This is my first projects  learning HTML, CSS5, Javascript, Jquery etc.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I am so excited learning this stuff and I can't wait to complete my class in 26 days. 
+Feel free to rate my projects and let me know what to improve upon.

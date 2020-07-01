@@ -1,0 +1,133 @@
+    1  cd ./workspace 
+    2  cd ./workspace 
+    3  ls
+    4  clear
+    5  ls -al
+    6  mkdir chocago
+    7  mkdir indiana
+    8  mkdir new jersey
+    9  mkdir new york
+   10  mkdir new_york
+   11  mkdir new_jersey
+   12  mkdir stlouis
+   13  mkdir los_angeles
+   14  touch ghana.txt
+   15  touch ivorycaost.txt
+   16  pwd
+   17  rails new html5
+   18  ll
+   19  cd html5/
+   20  ll
+   21  huthib status
+   22  github status
+   23  git status
+   24  git init
+   25  git add -A .
+   26  git status
+   27  git commit -m "my first ever git commit"
+   28  git status
+   29  git log
+   30  git branch
+   31  git commit -m "my first ever git commit - written by Ernest Korgah - 6/25/2020"
+   32  git commit --amend -m "my first git-commit by Ernest Korgah - 6/25/2020"
+   33  git log
+   34  git remote add origin https://github.com/Ernest-hub/html5-projects.git
+   35  git push -u origin master
+   36  ll
+   37  git status
+   38  git add README.md 
+   39  git add A-
+   40  git status
+   41  git commit -m "I am having a swift progress, I just added my readme message"
+   42  git push origin master
+   43  git push
+   44  git log
+   45  git branch
+   46  git branch fr_readme
+   47  git branch
+   48  git checkout fr_readme
+   49  git branch
+   50  all
+   51  history
+   52  git branch
+   53  git status
+   54  git add
+   55  git add -A
+   56  git status
+   57  git commit -m "modified readme again in new branch"
+   58  git push -u origin fr_readme
+   59  mvstat
+   60  cd ..
+   61  vmstat
+   62  clear
+   63  vmstat
+   64  top
+   65  cd ./workspace 
+   66  ll
+   67  cd html5/
+   68  ll
+   69  pwd
+   70  rails new html5
+   71  cd ..
+   72  rails new html5
+   73  cd ./workspace 
+   74  cd  html5/
+   75  git status
+   76  cd ..
+   77  ll
+   78  cd html5/
+   79  ll
+   80  cd ..
+   81  ll
+   82  cd html5/
+   83  pwd
+   84  status
+   85  gig status
+   86  git status
+   87  git add -A
+   88  git status
+   89  git commit -m "Just added an html file"
+   90  git status
+   91  git show
+   92  clear
+   93  git push -u origin master
+   94  bundle exec rails s --binding=0.0.0.0
+   95  ll
+   96  v: public/index.html 
+   97  ll
+   98  clear
+   99  ll
+  100  cd public/
+  101  ll
+  102  cat index.html 
+  103  clear
+  104  cd ..
+  105  bundle exec rails s --binding=0.0.0.0
+  106  cd ./workspace 
+  107  cd html5/
+  108  bundle exec rails s --binding=0.0.0.0
+  109  cd ./workspace 
+  110  ls -al
+  111  whoami
+  112  ls -al
+  113  cd indiana/
+  114  pwd
+  115  wget https://www.daghewardmills.org/new/
+  116  ls
+  117  vi index.html 
+  118  cd ./workspace 
+  119  bundle exec rails s --binding=0.0.0.0
+  120  cd html5/
+  121  bundle exec rails s --binding=0.0.0.0
+  122  cd ./workspace 
+  123  cd html5/
+  124  ll
+  125  cd ./workspace 
+  126  cd html5/
+  127  bundle exec rails s --binding=0.0.0.0
+  128  cd ./workspace 
+  129  cd html5/
+  130  bundle exec rails s --binding=0.0.0.0
+  131  cd ./workspace 
+  132  cd html5/
+  133  history > git_history.txt

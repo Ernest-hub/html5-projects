@@ -1,0 +1,30 @@
+body {
+  background-color: #ffff00;
+  background-image: url("https://media1.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+  
+}
+h3 {
+  color: green;
+  font-family: verdana;
+  font-size: 230%;
+}
+p {
+  color: brown;
+  font-family: courier;
+  font-size: 100%;
+}
+#p01 {
+  color: green;
+}
+.p01 {
+  color: blue;
+}
+
+.img {
+ padding-top: 50px;
+  border: 5px solid red;
+  padding: 50px;
+  background-color: green;
+  resize: 50%;
+  border-style: dotted;
+}

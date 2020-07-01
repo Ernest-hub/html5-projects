@@ -1,0 +1,827 @@
+commit 13c7ffdb92500fe2e9701adad949d5d5ccc11c3d
+Author: mrnerorr2 <mrnerorr2@gmail.com>
+Date:   Wed Jul 1 07:22:21 2020 -0400
+
+    Commited a HTML/CSS assignment on 7/01/2020
+
+diff --git a/app/assets/stylesheets/style.css b/app/assets/stylesheets/style.css
+new file mode 100644
+index 0000000..fa20ac2
+--- /dev/null
++++ b/app/assets/stylesheets/style.css
+@@ -0,0 +1,33 @@
++ body {
++        background-color: #ffff99;
++      }
++      h1{
++        color: blue;
++      }
++        
++        
++       h2{
++        color: red;
++      }
++        
++       h3{
++        color: green;
++        font-family: verdana;
++        font-size: 60%;
++      }
++        
++        
++        
++      p {
++        color: red;
++        font-family: verdana;
++        font-size: 90%;
++      }
++        
++      #p01 {color: purple;
++        font-size: 300%}
++       
++        .p01 {color: yellowgreen;
++         font-size: 250%;
++         
++        }
+\ No newline at end of file
+diff --git a/git_history.txt b/git_history.txt
+new file mode 100644
+index 0000000..f34018b
+--- /dev/null
++++ b/git_history.txt
+@@ -0,0 +1,133 @@
++    1  cd ./workspace 
++    2  cd ./workspace 
++    3  ls
++    4  clear
++    5  ls -al
++    6  mkdir chocago
++    7  mkdir indiana
++    8  mkdir new jersey
++    9  mkdir new york
++   10  mkdir new_york
++   11  mkdir new_jersey
++   12  mkdir stlouis
++   13  mkdir los_angeles
++   14  touch ghana.txt
++   15  touch ivorycaost.txt
++   16  pwd
++   17  rails new html5
++   18  ll
++   19  cd html5/
++   20  ll
++   21  huthib status
++   22  github status
++   23  git status
++   24  git init
++   25  git add -A .
++   26  git status
++   27  git commit -m "my first ever git commit"
++   28  git status
++   29  git log
++   30  git branch
++   31  git commit -m "my first ever git commit - written by Ernest Korgah - 6/25/2020"
++   32  git commit --amend -m "my first git-commit by Ernest Korgah - 6/25/2020"
++   33  git log
++   34  git remote add origin https://github.com/Ernest-hub/html5-projects.git
++   35  git push -u origin master
++   36  ll
++   37  git status
++   38  git add README.md 
++   39  git add A-
++   40  git status
++   41  git commit -m "I am having a swift progress, I just added my readme message"
++   42  git push origin master
++   43  git push
++   44  git log
++   45  git branch
++   46  git branch fr_readme
++   47  git branch
++   48  git checkout fr_readme
++   49  git branch
++   50  all
++   51  history
++   52  git branch
++   53  git status
++   54  git add
++   55  git add -A
++   56  git status
++   57  git commit -m "modified readme again in new branch"
++   58  git push -u origin fr_readme
++   59  mvstat
++   60  cd ..
++   61  vmstat
++   62  clear
++   63  vmstat
++   64  top
++   65  cd ./workspace 
++   66  ll
++   67  cd html5/
++   68  ll
++   69  pwd
++   70  rails new html5
++   71  cd ..
++   72  rails new html5
++   73  cd ./workspace 
++   74  cd  html5/
++   75  git status
++   76  cd ..
++   77  ll
++   78  cd html5/
++   79  ll
++   80  cd ..
++   81  ll
++   82  cd html5/
++   83  pwd
++   84  status
++   85  gig status
++   86  git status
++   87  git add -A
++   88  git status
++   89  git commit -m "Just added an html file"
++   90  git status
++   91  git show
++   92  clear
++   93  git push -u origin master
++   94  bundle exec rails s --binding=0.0.0.0
++   95  ll
++   96  v: public/index.html 
++   97  ll
++   98  clear
++   99  ll
++  100  cd public/
++  101  ll
++  102  cat index.html 
++  103  clear
++  104  cd ..
++  105  bundle exec rails s --binding=0.0.0.0
++  106  cd ./workspace 
++  107  cd html5/
++  108  bundle exec rails s --binding=0.0.0.0
++  109  cd ./workspace 
++  110  ls -al
++  111  whoami
++  112  ls -al
++  113  cd indiana/
++  114  pwd
++  115  wget https://www.daghewardmills.org/new/
++  116  ls
++  117  vi index.html 
++  118  cd ./workspace 
++  119  bundle exec rails s --binding=0.0.0.0
++  120  cd html5/
++  121  bundle exec rails s --binding=0.0.0.0
++  122  cd ./workspace 
++  123  cd html5/
++  124  ll
++  125  cd ./workspace 
++  126  cd html5/
++  127  bundle exec rails s --binding=0.0.0.0
++  128  cd ./workspace 
++  129  cd html5/
++  130  bundle exec rails s --binding=0.0.0.0
++  131  cd ./workspace 
++  132  cd html5/
++  133  history > git_history.txt
+diff --git a/public/basics.html b/public/basics.html
+new file mode 100644
+index 0000000..499ca9c
+--- /dev/null
++++ b/public/basics.html
+@@ -0,0 +1,36 @@
++
++<!DOCTYPE html>
++<html>
++<head>
++	<meta charset="UTF-8">
++	<title>Climbing the Triangle</title>
++	<link rel="stylesheet" type="text/css" href="pstyle.css">
++</head>
++<body>
++<a href="#main" class="visuallyhidden">Skip navigation</a>
++<div id="wrapper">
++	<div id="header">
++		<h1>Climbing the Triangle</h1>
++	</div>
++	<div id="sidebar">
++		<ul>
++		<li><a href="basics.html">The Basics</a></li>
++			<li><a href="climb.html">Types of Climbing</a></li>
++			<li><a href="safety.html">Safety</a></li>
++			<li><a href="equipment.html">Equipment</a></li>
++			<li><a href="where.html">Where to Climb</a></li>
++		</ul>
++	</div>
++	<div id="main">
++		<h2 id="basics">The Basics</h2>
++		<img class="alignleft" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/climbing-woman.jpg" alt="A woman bouldering" />
++		<p>Are you thinking about trying <a href="https://en.wikipedia.org/wiki/Rock_climbing" target="_blank">rock climbing?</a> Climbing is a fun and challenging sport that has a surge of popularity in recent years. Almost anyone can climb: you don't need a high level of strength or fitness to get started. Gear is available for men, women, and children of all shapes and sizes, and most gyms will allow children as young as three to climb. Climbing is not about brute force. Climbing more difficult routes does take some strength, mostly in your legs and hands, but it also takes skill and problem-solving ability.</p>		
++		<p>Oh, and it is okay if you are afraid of heights. Really. Just keep your eyes on the wall.</p>
++	</div>
++
++	<div id="footer">
++		<p>A sample site by Sylvia Richardson</p>
++	</div>
++</div>
++</body>
++</html>
+diff --git a/public/climb.html b/public/climb.html
+new file mode 100644
+index 0000000..b198cb4
+--- /dev/null
++++ b/public/climb.html
+@@ -0,0 +1,48 @@
++
++<!DOCTYPE html>
++<html>
++<head>
++	<meta charset="UTF-8">
++	<title>Climbing the Triangle</title>
++	<link rel="stylesheet" type="text/css" href="pstyle.css">
++</head>
++<body>
++<a href="#main" class="visuallyhidden">Skip navigation</a>
++<div id="wrapper">
++	<div id="header">
++		<h1>Climbing the Triangle</h1>
++	</div>
++	<div id="sidebar">
++		<ul>
++			<li><a href="basics.html">The Basics</a></li>
++			<li><a href="climb.html">Types of Climbing</a></li>
++			<li><a href="safety.html">Safety</a></li>
++			<li><a href="equipment.html">Equipment</a></li>
++			<li><a href="where.html">Where to Climb</a></li>
++		</ul>
++	</div>
++	<div id="main">
++		<h2 id="types">Types of Climbing</h2>
++		<h3>Indoor versus Outdoor</h3>
++		<img class="alignleft" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/indoor-climbing.jpg" alt="A rock climbing wall in a gym" />
++		<p>This is exactly what it says on the tin. Most people start climbing indoors, at rock climbing gyms. These places have walls built of plywood with plastic or stone holds (grips) attached to the walls. These walls usually have marked routes, graded for the difficulty of the climb. Indoor gyms usually have all of the equipment you need, available for rent or purchase. They also often offer classes for beginners. You can climb in all weather, at all skill levels, in a safe and controlled environment. Most gyms charge a fee for a day pass, ranging from $4 to $17, which covers entrance into the gym. They will also rent you gear like a harness or shoes for a small additional fee. The Raleigh/Durham area has several good gyms. See <a href="where.html">where to climb in the triangle</a> for more information.</p>
++        <p>Indoor gyms often have minimum age limits; most do not allow children under age 4 to climb. A child must also be large enough to wear a climbing harness. There are special full-body harnesses designed for young climbers.</p>
++		<p>Once you become more comfortable climbing indoors, you may want to try a real rock. Several state parks in the area, including <a href="http://www.ncparks.gov/Visit/parks/pimo/activities.php">Pilot Mountain</a> and <a href="http://www.ncparks.gov/Visit/parks/stmo/activities.php">Stone Mountain</a>, offer climbing walls. Outdoor climbing requires some extra equipment and training, so you may want to go with a group or a guided trip.</p>
++		
++		<h3>Top Rope</h3>
++		<p>This is what most people think of as traditional climbing, and it is where most people start. In top rope climbing, the climbing rope is secured at the top of the route through a bolt or anchor. A climber attaches him or herself to one end of the rope and climbs up toward the anchor. Another person, the belayer, stands on the ground and holds the end of the rope. It is the belayer's job to take in extra rope, and catch the climber in case of a fall. The belayer also lowers the climber back to the ground when they have completed the route (or have gotten too stuck to continue).</p>
++		<p>Some gyms also have machines called autobelay devices that do the work of belaying automatically. Be sure to ask the staff at the gym how to clip into the autobelay device properly. Autobelay devices have many safety features designed to prevent falls and to lower the climber slowly to the ground. The speed you travel depends on your weight--a heavier adult will come down faster than a lighter one. Very small children may not weigh enough to trigger the autobelay device. Be sure to check with the gym staff if you are climbing with a young child.</p>
++				
++		<h3>Bouldering</h3>
++		<p>Bouldering is "sideways" climbing. Instead of going up a wall, you traverse the path sideways, usually only a few feet off the ground. You do not need a harness, rope, or belay partner when bouldering, making it one of the few rock climbing exercises you can do solo. It is also a good way for new climbers to build skill and confidence. Bouldering routes tend to be more technically challenging than top climbing routes.</p>
++		
++		<h3>Lead Climbing</h3>
++		<p>When you lead climb, instead of hanging off a rope anchored at the top of a route, you bring your rope with you! A lead climber climbs up a route carrying a rope and hooking into the wall as they go. They still climb with a belayer. Indoors, climbers clip the rope into bolts attached to the wall. Outdoors, they may place their own anchors as they go. Lead climbing is a much more technically challenging than top rope or bouldering. You should wait until you are comfortable with top rope climbing before you try it.</p> 
++	</div>
++	
++	<div id="footer">
++		<p>A sample site by Sylvia Richardson</p>
++	</div>
++</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/public/equipment.html b/public/equipment.html
+new file mode 100644
+index 0000000..3108983
+--- /dev/null
++++ b/public/equipment.html
+@@ -0,0 +1,72 @@
++
++<!DOCTYPE html>
++<html>
++<head>
++	<meta charset="UTF-8">
++	<title>Climbing the Triangle</title>
++	<link rel="stylesheet" type="text/css" href="pstyle.css">
++</head>
++<body>
++<a href="#main" class="visuallyhidden">Skip navigation</a>
++<div id="wrapper">
++	<div id="header">
++		<h1>Climbing the Triangle</h1>
++	</div>
++	<div id="sidebar">
++		<ul>
++			<li><a href="basics.html">The Basics</a></li>
++			<li><a href="climb.html">Types of Climbing</a></li>
++			<li><a href="safety.html">Safety</a></li>
++			<li><a href="equipment.html">Equipment</a></li>
++			<li><a href="where.html">Where to Climb</a></li>
++		</ul>
++	</div>
++	<div id="main">
++		<h2 id="equip">Equipment</h2>
++		<p>To climb safely, you will need a few pieces of basic equipment. Most rock climbing gyms will rent this equipment to you. You can also buy your own equipment from an outdoor gear store like <a href="http://www.rei.com">REI</a>, or look for used gear on <a href="http://raleigh.craigslist.org/">Craigslist</a>. I highly recommend using rental gear first, before you buy. That will give you a change to find out what you like. Remember, you can don't have to buy everything at once.</p>
++
++		<h3>Harness</h3>
++		<img class="alignright" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/emptyharness.jpg" alt="A rock climbing harness" />
++		<p>A harness is an absolute requirement for top rope climbing. (You don't use a harness when bouldering.) The harness fits across your waist and legs, attaching you to the rope. Most places have rental harnesses, but they are generally "universal" harnesses designed to fit nearly anyone. They work, but they tend to be very uncomfortable. If you decide you enjoy climbing, it is worth buying your own harness quickly.</p>
++		<p>Because a harness is life-saving safety gear <strong>be very careful</strong> if you buy used gear. A used harness may have been damaged in a fall in a way you cannot see. Don't trust your life to a Craigslist seller. Be sure to inspect any used gear very carefully.</p>
++		<p>Harnesses in the United States generally come sized from extra-small to extra-large. However, these sizes often do not correspond to your pants or dress size, especially if you have a narrow waist. I suggest buying your first harness at a retail store, where an experienced salesperson can help you fit your harness. Expect to spend between $50 and $80 for a basic harness.</p>
++
++		<h3>Shoes</h3>
++		<img class="alignright" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/shoes.jpg" alt="A rock climbing shoe" />
++		<p>When you first start climbing you can wear a pair of tennis shoes for the basic routes. If you wish to progress to harder routes, though, you will need a pair of specialized climbing shoes. These shoes are usually worn very tight and have a slight curve to them. They allow you to put your weight on a small part of your foot and remain stable. They also have a textured sole that is a bit more "sticky," allowing you to plant your foot against the wall for balance and stability, even without a hold.</p>
++		<p>Rock climbing shoes are generally either leather or a synthetic suede-like material. They come in a variety of styles. Very technical shoes tend to have a rigid sole and a pronounced curve. They look painful because they are! As a beginner, you will probably want a shoe with a softer, more flexible sole.</p>
++		<p>These shoes come in standard men and women's shoe sizes. However, most climbers prefer tight-fitting shoes and will buy a size or so down from their regular shoe sizes. As a rule, shoes marketed to women are narrower than those marketed to men. If you have a very narrow foot, stick to women's shoes; if you have a wide foot buy men's shoes. They generally look very similar.</p>
++		<p>I strongly recommend renting shoes at first, until you find a size and style that works for you. Shoes are an excellent piece of gear to buy used. Because they are such a personalized piece of gear, many people buy a pair, wear them once or twice, and then sell them because they do not like the fit. If you do buy new shoes, expect to pay between $70 and $100 for a pair of starter shoes.</p>
++
++		<h3>Belay Device</h3>
++		<img class="alignright" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/atc-xp.jpg" alt="An ATC-style belay device" />
++		<p>A belay device is a small mechanism that is used to connect a climber and their belayer. Some can also be used to rappel. A belay device serves a few primary purposes:
++		<ol>
++			<li>It securely attaches a belayer to their climber.</li>
++			<li>It provides extra friction, allowing a belayer to quickly stop a fall. Some more complicated devices also have automatic breaking systems.</li>
++			<li>It compensates for weight differences between a climber and belayer.</li>
++			<li>It allows a belayer to lower a climber smoothly and at a safe speed.</li>
++		</ol>
++		<p>There are several different types of belay devices. An ATC (pictured) is the cheapest and simplest. They are light and easy to use. A Cinch or GriGri is more expensive and heavier, but has a built-in automatic braking system. Any climbing gym or retail store should have employees that can show you the different models and how they work.</p>
++		<p>Belaying is a simple skill that most people can pick up rapidly. However, it is very important that you learn to belay properly. A mistake when belaying can mean <strong>death or serious injury</strong> for your climber. Most gyms offer classes in belaying. If you work with an experienced, well-trained climber, they can generally show you how to use a belay device properly. All gyms require that you pass a test in order to belay climbers at that gym.</p>
++		<p>Belay devices are life-saving safety gear. <strong>Never buy a used belay device.</strong> If the device was mistreated, it may be damaged in a way that is not visible to the naked eye. Additionally, if you ever drop your belay device from a height, or notice any signs of cracking or metal fatigue, <strong>stop using it immediately.</strong> An ATC is very inexpensive--about $20--so there is no reason to economize. An auto-braking device will be closer to $100.</p>
++
++		<h3>Chalk Bag and Carabiners</h3>
++		<img class="alignright" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/chalk-carabiner.jpg" alt="A chalk bag and a carabiner" />
++		<p>Like Olympic gymnasts on the parallel bars, climbers need to get a good grip. At any gym, you will notice climbers chalking their hands before they start. Climbers store their chalk in a drawstring bar they can attach to their harness. They are not a necessity, but they are helpful. Chalk bags are inexpensive, $15-$20. They are often sold as  part of a package deal with a harness.</p>
++		<p>You'll attach your chalk bar to your harness with a carabiner. Your belayer will also use a carabiner to anchor him or herself to the belay device. Carabiners are sturdy metal links with a gate, or opening, on one side. Most have a locking mechanism of some kind, to keep them from opening accidentally. Larger weight-bearing carabiners are around $10-$15. You should have a least two. You can buy smaller carabiner for attaching gear to your belt for just a few dollars.</p>
++
++		<h3>Helmet</h3>
++		<img class="alignright" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/helmet.jpg" alt="A climbing helmet" />
++		<p>Among climbers, these are known as "brain buckets." A helmet does exactly what you'd think: it protects your head from impact. Impact can come from you hitting a rock or a rock hitting you. The second is actually fairly common outdoors, where falling rocks are a danger. As an added bonus, it protects you from bird droppings.</p>
++		<p>A retail climbing helmet is generally very light and comfortable. The climbing helmets that most gyms rent out are designed to be sturdy, and are usually much heavier and less comfortable. Either way, you want a helmet designed and rated for climbing. A bike helmet is not sufficient--they are designed to take impacts from a different direction. (They also tend to have holes, which makes them less effective protection from debris and bird droppings.)</p>
++		<p>I don't wear a helmet when climbing in a gym; most adults don't. If you are climbing with an incautious or clumsy child, it might be a good idea to have them wear one, though. If you go climbing outdoors, you do need a helmet.</p>
++		<p>Climbing helmets are usually adjustable to a wide range of sizes. Unless you have a very small head (or really hate the available colors), buy a men's or unisex helmet. The helmets marketed to women tend to be less adjustable, and don't have any other benefits. Be <strong>be very careful</strong> if you buy a used helmet, and inspect it for any signs of damage. If you take a fall and impact your helmet, you should probably replace it. A helmet costs about $60.</p>
++	</div>
++
++	<div id="footer">
++		<p>A sample site by Sylvia Richardson</p>
++	</div>
++</div>
++</body>
++</html>
+diff --git a/public/index.html b/public/index.html
+index bfa0630..1eb8157 100644
+--- a/public/index.html
++++ b/public/index.html
+@@ -3,6 +3,16 @@
+ <html lang="en">
+ 
+     <head>
++           
++      <link rel="stylesheet" href="style.css">
++      <link rel="stylesheet" href="kem.css">
++      
++      
++      
++      
++ <!--     COMMENT THIS OUT FOR NOW----
++      <meta charset="utf-8">
++      
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+@@ -13,8 +23,63 @@
+ 
+             });
+         </script>
++
++--->
+     </head>
+-    <body>
++<body> 
++        <h1 style="text-align: center">
++          <strong><i>QODESH FAMILY CHURCH STL - NORTH</i></strong>
++          
++          <!-- This is my church website -->
++          
++      <br></h1>
++        <h2>
++        <!--  This is my first html project. -->
++      </h1>
++      <h3>
++       <p id="p01">
++         We shall not be few
++        </p> 
++        <p class="p01" style="text-transform: uppercase">
++          We are located in Florissand Missouri
++        </p>
++        
++        <hr>
++        
++        <a href="https://www.daghewardmills.org/new/">This is the link to our Bishop's Website</a>
++        <img class="img" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/103074667_1657055254435663_7021110979921806512_n.png?_nc_cat=106&_nc_sid=85a577&_nc_ohc=JTOzGNmMPUsAX9IzbXB&_nc_ht=scontent-ort2-1.xx&oh=3a07ad62bb22404500aebef0cb253a69&oe=5F1E39BA" alt="QFC LOGO" 
++      </h3>
++        <p>
++
++          
++<!-- This is my church website -->
++    <div class="kem">
++      
++             
++        </p>
++        <button>Join a school now!!
++          
++        </button> <br>
++        <h3>
++          <u><strong>SCHOOLS</strong></u>
++        </h3>
++        <ul>
++          <li>New Believer's School</li>
++          <li>Fruitful believer's school</li>
++          <li>School of Apologetics</li>
++        </ul><br>
++        
++        <h3>
++          <u><strong>GRADUATES</strong></u>
++        </h3>
++        <ol>
++          <li>John Doe</li>
++          <li>Kwaku Ghana</li>
++          <li>Ama China</li>
++        </ol>
++        
++     </div> 
++      
+ 
+         <div class="container">
+                 <div class='row'>
+@@ -29,5 +94,5 @@
+                     </div>
+             </div>
+         </div>  
+-    </body>
++     </body>
+ </html>
+\ No newline at end of file
+diff --git a/public/kem.css b/public/kem.css
+new file mode 100644
+index 0000000..919e82a
+--- /dev/null
++++ b/public/kem.css
+@@ -0,0 +1,11 @@
++div {
++  background-image: url("https://media0.giphy.com/media/B1xUp52rUnrv1Leakw/giphy.gif");
++  padding-top: 50px;
++  border: 10px solid red;
++  padding: 50px;
++  margin-top: 50px;
++  margin-bottom: 100px;
++  margin-right: 300px;
++  margin-left: 300px;
++  
++}
+\ No newline at end of file
+diff --git a/public/proj1.html b/public/proj1.html
+new file mode 100644
+index 0000000..d51c42a
+--- /dev/null
++++ b/public/proj1.html
+@@ -0,0 +1,48 @@
++
++<!DOCTYPE html>
++<html>
++<head>
++	<meta charset="UTF-8">
++	<title>Climbing the Triangle</title>
++	<link rel="stylesheet" type="text/css" href="pstyle.css">
++</head>
++<body>
++<a href="#main" class="visuallyhidden">Skip navigation</a>
++<div id="wrapper">
++	<div id="header">
++		<h1>Climbing the Triangle</h1>
++	</div>
++	<div id="sidebar">
++		<ul>
++			<li><a href="basics.html">The Basics</a></li>
++			<li><a href="climb.html">Types of Climbing</a></li>
++			<li><a href="safety.html">Safety</a></li>
++			<li><a href="equipment.html">Equipment</a></li>
++			<li><a href="where.html">Where to Climb</a></li>
++		</ul>
++	</div>
++	<div id="main">
++		<h2 id="types">Types of Climbing</h2>
++		<h3>Indoor versus Outdoor</h3>
++		<img class="alignleft" src="http://gdichicago.com/courses/intro-html-css/sample-code/final/img/indoor-climbing.jpg" />
++		<p>This is exactly what it says on the tin. Most people start climbing indoors, at rock climbing gyms. These places have walls built of plywood with plastic or stone holds (grips) attached to the walls. These walls usually have marked routes, graded for the difficulty of the climb. Indoor gyms usually have all of the equipment you need, available for rent or purchase. They also often offer classes for beginners. You can climb in all weather, at all skill levels, in a safe and controlled environment. Most gyms charge a fee for a day pass, ranging from $4 to $17, which covers entrance into the gym. They will also rent you gear like a harness or shoes for a small additional fee. The Raleigh/Durham area has several good gyms. See <a href="where.html">where to climb in the triangle</a> for more information.</p>
++        <p>Indoor gyms often have minimum age limits; most do not allow children under age 4 to climb. A child must also be large enough to wear a climbing harness. There are special full-body harnesses designed for young climbers.</p>
++		<p>Once you become more comfortable climbing indoors, you may want to try a real rock. Several state parks in the area, including <a href="http://www.ncparks.gov/Visit/parks/pimo/activities.php">Pilot Mountain</a> and <a href="http://www.ncparks.gov/Visit/parks/stmo/activities.php">Stone Mountain</a>, offer climbing walls. Outdoor climbing requires some extra equipment and training, so you may want to go with a group or a guided trip.</p>
++		
++		<h3>Top Rope</h3>
++		<p>This is what most people think of as traditional climbing, and it is where most people start. In top rope climbing, the climbing rope is secured at the top of the route through a bolt or anchor. A climber attaches him or herself to one end of the rope and climbs up toward the anchor. Another person, the belayer, stands on the ground and holds the end of the rope. It is the belayer's job to take in extra rope, and catch the climber in case of a fall. The belayer also lowers the climber back to the ground when they have completed the route (or have gotten too stuck to continue).</p>
++		<p>Some gyms also have machines called autobelay devices that do the work of belaying automatically. Be sure to ask the staff at the gym how to clip into the autobelay device properly. Autobelay devices have many safety features designed to prevent falls and to lower the climber slowly to the ground. The speed you travel depends on your weight--a heavier adult will come down faster than a lighter one. Very small children may not weigh enough to trigger the autobelay device. Be sure to check with the gym staff if you are climbing with a young child.</p>
++				
++		<h3>Bouldering</h3>
++		<p>Bouldering is "sideways" climbing. Instead of going up a wall, you traverse the path sideways, usually only a few feet off the ground. You do not need a harness, rope, or belay partner when bouldering, making it one of the few rock climbing exercises you can do solo. It is also a good way for new climbers to build skill and confidence. Bouldering routes tend to be more technically challenging than top climbing routes.</p>
++		
++		<h3>Lead Climbing</h3>
++		<p>When you lead climb, instead of hanging off a rope anchored at the top of a route, you bring your rope with you! A lead climber climbs up a route carrying a rope and hooking into the wall as they go. They still climb with a belayer. Indoors, climbers clip the rope into bolts attached to the wall. Outdoors, they may place their own anchors as they go. Lead climbing is a much more technically challenging than top rope or bouldering. You should wait until you are comfortable with top rope climbing before you try it.</p> 
++	</div>
++	
++	<div id="footer">
++		<p>A sample site by Sylvia Richardson</p>
++	</div>
++</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/public/pstyle.css b/public/pstyle.css
+new file mode 100644
+index 0000000..8179d09
+--- /dev/null
++++ b/public/pstyle.css
+@@ -0,0 +1,155 @@
++/*
++--------------------------------------
++Table of contents
++1. Overall Design/layout
++2. Sidebar Styles
++3. Text and image alignment classes
++--------------------------------------
++*/
++
++
++/*Overall Design*/
++
++body{
++	background-color: lightyellow;
++	font-family: Sans-Serif;
++}
++
++#wrapper{
++	width: 65em;
++	margin: 0 auto;
++	background-color: #fff;
++}
++
++#header{
++	background-color: #3B597D;
++	margin: 0;
++	padding: 1em;
++	color: #fff;
++}
++
++#main{
++	background-color: #fff;
++	padding: 1em;
++	width: 48em;
++	float: left;
++}
++
++#sidebar{
++	background-color: #D68051;
++	padding: 1em;
++	width: 13em;
++	float: right;
++}
++
++#footer{
++	background-color: #3B597D;
++	margin: 0;
++	padding: 1em;
++	color: #fff;
++	clear: both;
++}
++
++/*Sidebar links*/
++
++#sidebar ul{
++	list-style-type: none;
++	margin: 0;
++	padding: 5px;
++}
++
++#sidebar ul li {
++	display: inline-block;
++	width: 95%;
++	height: 40px;
++	line-height: 40px;
++	font-size: 130%;
++	padding: 5px;
++	margin-bottom: 5px;
++	background: #3B597D;
++	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#1d2c3e), to(#3B597D));
++	background: -webkit-linear-gradient(#1d2c3e, #3B597D);
++	background: -moz-linear-gradient(#1d2c3e, #3B597D);
++	background: -ms-linear-gradient(#1d2c3e, #3B597D);
++	background: -o-linear-gradient(#1d2c3e, #3B597D);
++	background: linear-gradient(#1d2c3e, #3B597D);
++	border: 1px solid #1d2c3e;
++	border-radius: 2px;
++	font-weight: bold;
++}
++
++#sidebar ul li a{
++	text-decoration: none;
++	color: #ffffff;
++}
++
++
++/*Alignment classes*/
++
++.alignright{
++	float: right;
++	padding: 0 0 1em 1em;
++}
++.alignleft{
++	float: left;
++	padding: 0 1em 1em 0;
++}
++.aligninline{
++	display: block;
++	padding: .5em 0 2em 0;
++}
++.textright{
++	text-align: right;
++}
++.textcenter{
++	text-align: center;
++}
++
++/*Accessibility*/
++
++/*
++ * Hide from both screenreaders and browsers: h5bp.com/u
++ */
++
++.hidden {
++    display: none !important;
++    visibility: hidden;
++}
++
++/*
++ * Hide only visually, but have it available for screenreaders: h5bp.com/v
++ */
++
++.visuallyhidden {
++    border: 0;
++    clip: rect(0 0 0 0);
++    height: 1px;
++    margin: -1px;
++    overflow: hidden;
++    padding: 0;
++    position: absolute;
++    width: 1px;
++}
++
++/*
++ * Extends the .visuallyhidden class to allow the element to be focusable
++ * when navigated to via the keyboard: h5bp.com/p
++ */
++
++.visuallyhidden.focusable:active,
++.visuallyhidden.focusable:focus {
++    clip: auto;
++    height: auto;
++    margin: 0;
++    overflow: visible;
++    position: static;
++    width: auto;
++}
++
++/*
++ * Hide visually and from screenreaders, but maintain layout
++ */
++
++.invisible {
++    visibility: hidden;
++}
+\ No newline at end of file
+diff --git a/public/safety.html b/public/safety.html
+new file mode 100644
+index 0000000..0369225
+--- /dev/null
++++ b/public/safety.html
+@@ -0,0 +1,45 @@
++
++<!DOCTYPE html>
++<html>
++<head>
++	<meta charset="UTF-8">
++	<title>Climbing the Triangle</title>
++	<link rel="stylesheet" type="text/css" href="pstyle.css">
++</head>
++<body>
++<a href="#main" class="visuallyhidden">Skip navigation</a>
++<div id="wrapper">
++	<div id="header">
++		<h1>Climbing the Triangle</h1>
++	</div>
++	<div id="sidebar">
++		<ul>
++			<li><a href="basics.html">The Basics</a></li>
++			<li><a href="climb.html">Types of Climbing</a></li>
++			<li><a href="safety.html">Safety</a></li>
++			<li><a href="equipment.html">Equipment</a></li>
++			<li><a href="where.html">Where to Climb</a></li>
++		</ul>
++	</div>
++	<div id="main">		
++		<h2 id="safety">Safety</h2>
++		<p>Is climbing safe? Well, any sport that involves leaving the ground is going to involve a certain amount of risk. Climbing is certainly more dangerous than, say, using an elliptical trainer or walking in the park. Most climbers do end up with some scrapes and bruises from harder routes.</p>
++		
++		<p>That said, climbing is nowhere near as risky as extreme sports like snowboarding. Climbers use a lot of safety equipment, and that equipment is designed and tested to survive intense forces. In fact, I feel far more comfortable 50 feet above the ground on a climbing rope than 5 feet up on a ladder. Serious climbing accidents are rare, especially in indoor climbing.</p>
++		
++		<p>Most accidents can be attributed to one of the following:</p>
++		<ul>
++			<li><strong>Taking stupid risks.</strong> This one is self-explanatory. Indoor rock climbing gyms are usually very safe environments, with staff that watch for dangerous practices. However, they cannot stop you from being stupid. Follow the rules--they are there for a reason. Outdoors climbing takes place in an uncontrolled environment. There are all the usual dangers of being outside, like inclement weather, combined with some other possible dangers, like poorly anchored bolts. If you are climbing outside, go with an experienced climber and use your common sense.</li>
++			<li><strong>Inattention.</strong> Safety gear only works if you use it properly. Inattention means not checking your gear, leaving your knots untied, or forgetting to double back your harness buckles. A belayer who is not paying attention to their climber can also fail to stop a fall or lower a climber too quickly. <strong>Always</strong> do your double-checks and <strong>never</strong> climb with a belayer you do not trust.</li>
++			<li><strong>Inadequate or poorly maintained gear.</strong> Climbing gear is expensive, and it can be tempting to cut corners. Don't do it. A broken ankle is far more expensive than spending $20 extra dollars for a new harness. In the <a href="equipment.html">equipment</a> section I talk more about what gear you can buy used, and what you should get new. Also check your gear regularly for signs of wear, and replace it if it looks like it is starting to wear out. The same goes for rented or borrowed equipment. Inspect it, and don't be afraid to ask for other gear if what you got looks sketchy.</li>
++		</ul>
++		
++		<p>Pay attention and trust your instincts, and you should be just fine.</p>
++	</div>
++	
++	<div id="footer">
++		<p>A sample site by Sylvia Richardson</p>
++	</div>
++</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/public/style.css b/public/style.css
+new file mode 100644
+index 0000000..385afa6
+--- /dev/null
++++ b/public/style.css
+@@ -0,0 +1,30 @@
++body {
++  background-color: #ffff00;
++  background-image: url("https://media1.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
++  
++}
++h3 {
++  color: green;
++  font-family: verdana;
++  font-size: 230%;
++}
++p {
++  color: brown;
++  font-family: courier;
++  font-size: 100%;
++}
++#p01 {
++  color: green;
++}
++.p01 {
++  color: blue;
++}
++
++.img {
++ padding-top: 50px;
++  border: 5px solid red;
++  padding: 50px;
++  background-color: green;
++  resize: 50%;
++  border-style: dotted;
++}
+\ No newline at end of file
+diff --git a/public/where.html b/public/where.html
+new file mode 100644
+index 0000000..27acfe1
+--- /dev/null
++++ b/public/where.html
+@@ -0,0 +1,42 @@
++
++<!DOCTYPE html>
++<html>
++<head>
++	<meta charset="UTF-8">
++	<title>Climbing the Triangle</title>
++	<link rel="stylesheet" type="text/css" href="pstyle.css">
++</head>
++<body>
++<a href="#main" class="visuallyhidden">Skip navigation</a>
++<div id="wrapper">
++	<div id="header">
++		<h1>Climbing the Triangle</h1>
++	</div>
++	<div id="sidebar">
++		<ul>
++			<li><a href="basics.html">The Basics</a></li>
++			<li><a href="climb.html">Types of Climbing</a></li>
++			<li><a href="safety.html">Safety</a></li>
++			<li><a href="equipment.html">Equipment</a></li>
++			<li><a href="where.html">Where to Climb</a></li>
++		</ul>
++	</div>
++	<div id="main">
++		<h3 id="where">Where to Climb in the Triangle</h3>
++		<p>If you are new to climbing, the <a href="http://www.meetup.com/RaleighRockClimbing/">Raleigh Rock Climbing Meetup</a> is a great place to start. They are a friendly group of climbers who organize regular outings to the local gym. Generally, you'll get a group discount on admission. You also get patient instructors who enjoy teaching new climbers.</p>
++		<p>If you prefer a more structured learning experience, many gyms offer classes for beginners.</p>
++		<ul>
++			<li><a href="http://www.townofchapelhill.org/index.aspx?page=813">Chapel Hill Community Center</a></li>
++			<li><a href="http://www.trianglerockclub.com/">Triangle Rock Club</a></li>
++			<li><a href="http://lifetimefitness.mylt.com/community/rock-climbing/">Lifetime Fitness (Cary)</a></li>
++			<li><a href="http://www.nextclimb.com">NextClimb</a></li>
++			<li><a href="http://recreation.duke.edu/facilities/climbing-wall/">Duke Climbing Wall</a> (Students and Faculty only)</li>
++		</ul>
++	</div>
++	
++	<div id="footer">
++		<p>A sample site by Sylvia Richardson</p>
++	</div>
++</div>
++</body>
++</html>
+\ No newline at end of file
